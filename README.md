@@ -82,4 +82,4 @@ $ npm test
 This module borrows heavily from [hapi-ioredis].
 
 [node-redis]: https://github.com/NodeRedis/node_redis
-[hapi-redis]: https://github.com/cilindrox/hapi-ioredis
+[hapi-ioredis]: https://github.com/cilindrox/hapi-ioredis
