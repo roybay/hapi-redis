@@ -1,0 +1,33 @@
+{
+  "name": "@pager/hapi-redis",
+  "version": "0.0.1",
+  "description": "A redis hapi plugin",
+  "keywords": [
+    "hapi",
+    "redis"
+  ],
+  "author": "Gaston Festari <gaston@pager.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pagerinc/hapi-redis.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "lab -t 100 -La code",
+    "test-cov-html": "lab -r html -o coverage.html -La code"
+  },
+  "dependencies": {
+    "redis": "^2.5.0-1"
+  },
+  "peerDependencies": {
+    "hapi": "13.x.x"
+  },
+  "devDependencies": {
+    "code": "2.x.x",
+    "lab": "10.x.x"
+  },
+  "main": "./lib/index.js",
+  "license": "MIT"
+}
