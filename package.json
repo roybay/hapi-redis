@@ -28,6 +28,6 @@
     "code": "2.x.x",
     "lab": "10.x.x"
   },
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "license": "MIT"
 }
