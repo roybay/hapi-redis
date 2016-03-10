@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-npm install --save hapi-redis
+npm install --save @pager/hapi-redis
 ```
 
 ## Quick start
@@ -27,7 +27,7 @@ const options = {
 
 // Register the plugin
 server.register({
-    register: require('hapi-redis'),
+    register: require('@pager/hapi-redis'),
     options: options
 }, (err) => {
 
