@@ -1,4 +1,4 @@
-# hapi-ioredis
+# hapi-redis
 
   A [node-redis] hapi plugin
 
