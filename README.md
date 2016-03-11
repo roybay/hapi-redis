@@ -2,7 +2,7 @@
 
   A [node-redis] hapi plugin
 
-  [![Build Status](https://travis-ci.com/pagerinc/hapi-redis.svg?token=NDcPJVe9v2Bwqz2z7yDW&branch=master)](https://travis-ci.com/pagerinc/hapi-redis)
+[![Build Status](https://travis-ci.org/pagerinc/hapi-redis.svg?branch=master)](https://travis-ci.org/pagerinc/hapi-redis)
 
 ## Installation
 
