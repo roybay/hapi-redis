@@ -67,7 +67,7 @@ it('decorates the request object', (done) => {
 
         server.inject(request, (res) => {
 
-            expect(res.result).to.deep.equal({ success: true });
+            expect(res.result).to.equal({ success: true });
             done();
         });
     });
