@@ -19,12 +19,12 @@
     "test-cov-html": "lab -r html -o coverage.html -La code"
   },
   "dependencies": {
-    "hapi": "15.x.x",
     "redis": "2.x.x"
   },
   "devDependencies": {
-    "code": "3.x.x",
-    "lab": "11.x.x"
+    "code": "4.x.x",
+    "hapi": "16.x.x",
+    "lab": "12.x.x"
   },
   "main": "./lib/index.js",
   "license": "MIT"
