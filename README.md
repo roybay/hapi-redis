@@ -69,7 +69,12 @@ server.start(() => {
 ```
 
 ## Async support
-You could use next promisified methods (e.g. `const res = await getAsync(key);`)
+You could use next promisified methods, e.g.: 
+
+```javascript
+const res = await getAsync(key);
+```
+
 | Original method | Promisified method |
 | --------------- | ------------------ |
 | set             | setAsync           |
