@@ -4,12 +4,11 @@ defaults: &defaults
   working_directory: ~/repo
   docker:
     - image: circleci/node:10.15
+    - image: redis:4-alpine
 
 jobs:
   test:
     <<: *defaults
-    services:
-      - redis
     steps:
       - checkout
 
