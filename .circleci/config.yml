@@ -8,6 +8,8 @@ defaults: &defaults
 jobs:
   test:
     <<: *defaults
+  services:
+    - redis
     steps:
       - checkout
 
