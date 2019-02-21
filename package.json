@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "code": "5.x.x",
-    "hapi": "18.x",
+    "hapi": "17.x",
     "lab": "18.x.x"
   },
   "main": "./lib/index.js",
