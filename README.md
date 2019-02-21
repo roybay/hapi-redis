@@ -1,8 +1,8 @@
 # hapi-redis
 
-  A [node-redis] hapi plugin
+A [node-redis] hapi plugin
 
-[![Build Status](https://travis-ci.org/pagerinc/hapi-redis.svg?branch=master)](https://travis-ci.org/pagerinc/hapi-redis)
+[![CircleCI](https://circleci.com/gh/pagerinc/hapi-redis.svg?style=svg)](https://circleci.com/gh/pagerinc/hapi-redis)
 
 ## Installation
 
