@@ -3,7 +3,11 @@ version: 2
 defaults: &defaults
   working_directory: ~/repo
   docker:
+<<<<<<< Updated upstream
     - image: circleci/node:12.13@sha256:1469c027c05a364010f005d0f87ad326710db048b7c69b8c1dc5141e294ab4b9
+=======
+    - image: circleci/node:10.16@sha256:55dbfc11ed2c3536b86d8b270d1c28a0a46c4bff1de89af73819e90238d18ba1
+>>>>>>> Stashed changes
     - image: redis:5-alpine@sha256:98dafa127c835902c8c415a65e07eb1d5fedeb818c26e8fce4b9cf6daf94e479
 
 jobs:
